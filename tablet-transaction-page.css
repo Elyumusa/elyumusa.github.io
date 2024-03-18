@@ -1,0 +1,131 @@
+.revridge1 {
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.revridge-container {
+  position: absolute;
+  top: 61px;
+  left: 55px;
+  width: 109px;
+  height: 44px;
+}
+.burger-menu-1-1-icon1 {
+  position: absolute;
+  width: calc(100% - 757px);
+  top: 67px;
+  right: 37px;
+  left: 720px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 32px;
+  object-fit: cover;
+}
+.balance-withdrawable1,
+.div4 {
+  position: relative;
+  font-weight: 500;
+}
+.balance-withdrawable1 {
+  align-self: stretch;
+  white-space: pre-wrap;
+}
+.div4 {
+  flex: 1;
+}
+.balance-withdrawable-group,
+.frame-wrapper5,
+.wrapper2 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.wrapper2 {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-3xs) var(--padding-base)
+    var(--padding-xl);
+}
+.balance-withdrawable-group,
+.frame-wrapper5 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame-wrapper5 {
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.balance-withdrawable-group {
+  gap: var(--gap-7xs);
+}
+.fiat-balance1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.add-bank-account-container {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-base) 0 var(--padding-base) var(--padding-xl);
+}
+.frame-wrapper9 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.frame-group,
+.frame-wrapper10,
+.frame-wrapper9 {
+  display: flex;
+  flex-direction: column;
+}
+.frame-wrapper10 {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.frame-group {
+  position: absolute;
+  width: calc(100% - 419px);
+  top: 157px;
+  right: 419px;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.tablet-transactions-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 991px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray);
+  font-family: var(--font-tomorrow);
+}

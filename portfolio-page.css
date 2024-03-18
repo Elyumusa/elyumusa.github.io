@@ -1,0 +1,478 @@
+/*Screen for Desktop screens */ 
+@media screen and (min-width: 1200px) {
+  .tablet-portfolio-page{
+    display: none;
+  }
+
+  .phone-portfolio-page{
+    display: none;
+  }
+  .revridge5 {
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+  }
+  .revridge-wrapper3 {
+    position: absolute;
+    top: 61px;
+    left: 107px;
+    width: 109px;
+    height: 44px;
+  }
+  .home1 {
+    cursor: pointer;
+  }
+  .home1,
+  .portfolio1 {
+    flex: 1;
+    position: relative;
+    font-weight: 500;
+  }
+  .links1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .search-normal-icon1 {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+  }
+  .search-for-stocks1 {
+    flex: 1;
+    position: relative;
+  }
+  .search-bar1 {
+    flex: 1;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-whitesmoke-100);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-xs) var(--padding-smi);
+    box-sizing: border-box;
+    gap: var(--gap-mid);
+  }
+  .account-icon-item {
+    position: relative;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+  }
+  .account-icon1 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs);
+  }
+  .searchandaccount1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-31xl);
+    font-size: var(--font-size-sm);
+    color: var(--color-darkgray);
+  }
+  .my-stocks1,
+  .navbar1 {
+    color: var(--color-black);
+  }
+  .navbar1 {
+    position: absolute;
+    width: calc(100% - 460px);
+    top: 38px;
+    right: 0;
+    left: 460px;
+    height: 107px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-mini) var(--padding-xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-lg);
+  }
+  .my-stocks1 {
+    position: relative;
+    font-size: var(--font-size-sm);
+    text-transform: uppercase;
+    font-family: var(--font-readex-pro);
+  }
+  .amazon2 {
+    position: relative;
+    font-weight: 500;
+  }
+  .amazon-frame {
+    width: 62px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .amzn2,
+  .div22 {
+    position: relative;
+    text-transform: uppercase;
+  }
+  .div22 {
+    color: var(--color-yellowgreen);
+  }
+  .amzn-container {
+    width: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: right;
+  }
+  .frame-parent12,
+  .frame-wrapper29 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .frame-wrapper29 {
+    border: 1px solid var(--color-black);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) var(--padding-xs);
+  }
+  .div24 {
+    position: relative;
+    text-transform: uppercase;
+    color: var(--color-yellowgreen);
+    display: inline-block;
+    width: 38px;
+  }
+  .my-stocks-group,
+  .portfolio-page-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .my-stocks-group {
+    flex: 1;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    height: 834px;
+    flex-direction: column;
+    padding: var(--padding-xl) var(--padding-xs);
+    gap: var(--gap-xl);
+  }
+  .portfolio-page-inner {
+    position: absolute;
+    width: calc(100% - 996px);
+    top: 145px;
+    right: 986px;
+    left: 10px;
+    flex-direction: row;
+    padding: 0 var(--padding-3xs);
+    font-size: var(--font-size-xs);
+  }
+  .portfolio-page {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1161px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-gray);
+    font-family: var(--font-tomorrow);
+  }
+  
+}
+
+
+/*Screen for Phone screens */
+@media screen and (max-width: 767px) {
+  .tablet-portfolio-page{
+    display: none;
+  }
+
+  .portfolio-page{
+    display: none;
+  }
+
+  .revridge3 {
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+  }
+  .revridge-wrapper1 {
+    position: absolute;
+    top: 61px;
+    left: 25px;
+    width: 109px;
+    height: 44px;
+  }
+  .top-stocks {
+    color: var(--color-black);
+  }
+  .amazon,
+  .top-stocks {
+    position: relative;
+    font-weight: 500;
+  }
+  .amazon-wrapper {
+    width: 62px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .amzn,
+  .div12 {
+    position: relative;
+    text-transform: uppercase;
+  }
+  .div12 {
+    color: var(--color-yellowgreen);
+  }
+  .amzn-parent {
+    width: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: right;
+  }
+  .frame-parent2,
+  .frame-wrapper19 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .frame-wrapper19 {
+    border: 1px solid var(--color-black);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) var(--padding-xs);
+  }
+  .div14 {
+    position: relative;
+    text-transform: uppercase;
+    color: var(--color-yellowgreen);
+    display: inline-block;
+    width: 38px;
+  }
+  .phone-portfolio-page-inner,
+  .top-stocks-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .top-stocks-parent {
+    flex: 1;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    height: 622px;
+    flex-direction: column;
+    padding: var(--padding-xl) var(--padding-xs);
+    gap: var(--gap-xl);
+  }
+  .phone-portfolio-page-inner {
+    position: absolute;
+    width: calc(100% - 125px);
+    top: 146px;
+    right: 125px;
+    left: 0;
+    flex-direction: row;
+    padding: 0 var(--padding-3xs);
+    font-size: var(--font-size-xs);
+  }
+  .burger-menu-1-1-icon2 {
+    position: absolute;
+    width: calc(100% - 455px);
+    top: 67px;
+    right: 27px;
+    left: 428px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 32px;
+    object-fit: cover;
+  }
+  .phone-portfolio-page {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 768px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-gray);
+    font-family: var(--font-tomorrow);
+  }
+  
+
+}
+
+
+
+/*Screen for tablet screens*/ 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .portfolio-page{
+    display: none;
+  }
+
+  .phone-portfolio-page{
+    display: none;
+  }
+
+  .revridge4 {
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+  }
+  .revridge-wrapper2 {
+    position: absolute;
+    top: 61px;
+    left: 51px;
+    width: 109px;
+    height: 44px;
+  }
+  .my-stocks {
+    position: relative;
+    font-size: var(--font-size-sm);
+    text-transform: uppercase;
+    font-family: var(--font-readex-pro);
+    color: var(--color-black);
+  }
+  .amazon1 {
+    position: relative;
+    font-weight: 500;
+  }
+  .amazon-container {
+    width: 62px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .amzn1,
+  .div17 {
+    position: relative;
+    text-transform: uppercase;
+  }
+  .div17 {
+    color: var(--color-yellowgreen);
+  }
+  .amzn-group {
+    width: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: right;
+  }
+  .frame-parent7,
+  .frame-wrapper24 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .frame-wrapper24 {
+    border: 1px solid var(--color-black);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) var(--padding-xs);
+  }
+  .div19 {
+    position: relative;
+    text-transform: uppercase;
+    color: var(--color-yellowgreen);
+    display: inline-block;
+    width: 38px;
+  }
+  .my-stocks-parent,
+  .tablet-portfolio-page-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .my-stocks-parent {
+    flex: 1;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    height: 834px;
+    flex-direction: column;
+    padding: var(--padding-xl) var(--padding-xs);
+    gap: var(--gap-xl);
+  }
+  .tablet-portfolio-page-inner {
+    position: absolute;
+    width: calc(100% - 287px);
+    top: 146px;
+    right: 287px;
+    left: 0;
+    flex-direction: row;
+    padding: 0 var(--padding-3xs);
+    font-size: var(--font-size-xs);
+  }
+  .burger-menu-1-1-icon3 {
+    position: absolute;
+    width: calc(100% - 724px);
+    top: 67px;
+    right: 37px;
+    left: 687px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 32px;
+    object-fit: cover;
+  }
+  .tablet-portfolio-page {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 991px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-gray);
+    font-family: var(--font-tomorrow);
+  }
+  
+}
+
+
+

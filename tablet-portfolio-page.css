@@ -1,0 +1,122 @@
+.revridge4 {
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.revridge-wrapper2 {
+  position: absolute;
+  top: 61px;
+  left: 51px;
+  width: 109px;
+  height: 44px;
+}
+.my-stocks {
+  position: relative;
+  font-size: var(--font-size-sm);
+  text-transform: uppercase;
+  font-family: var(--font-readex-pro);
+  color: var(--color-black);
+}
+.amazon1 {
+  position: relative;
+  font-weight: 500;
+}
+.amazon-container {
+  width: 62px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.amzn1,
+.div17 {
+  position: relative;
+  text-transform: uppercase;
+}
+.div17 {
+  color: var(--color-yellowgreen);
+}
+.amzn-group {
+  width: 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+}
+.frame-parent7,
+.frame-wrapper24 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frame-wrapper24 {
+  border: 1px solid var(--color-black);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-xs);
+}
+.div19 {
+  position: relative;
+  text-transform: uppercase;
+  color: var(--color-yellowgreen);
+  display: inline-block;
+  width: 38px;
+}
+.my-stocks-parent,
+.tablet-portfolio-page-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.my-stocks-parent {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  height: 834px;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-xs);
+  gap: var(--gap-xl);
+}
+.tablet-portfolio-page-inner {
+  position: absolute;
+  width: calc(100% - 287px);
+  top: 146px;
+  right: 287px;
+  left: 0;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+  font-size: var(--font-size-xs);
+}
+.burger-menu-1-1-icon3 {
+  position: absolute;
+  width: calc(100% - 724px);
+  top: 67px;
+  right: 37px;
+  left: 687px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 32px;
+  object-fit: cover;
+}
+.tablet-portfolio-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 991px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray);
+  font-family: var(--font-tomorrow);
+}
